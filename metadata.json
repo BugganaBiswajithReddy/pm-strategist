@@ -1,0 +1,8 @@
+{
+  "name": "Remix: pm strategist",
+  "description": "A Product Manager assistant that generates iterative roadmaps and strategic insights for your project ideas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
