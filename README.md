@@ -42,7 +42,7 @@ Traditional AI assistants generate text. PM Strategist transforms ideas into str
 </table>
 
 ## Video link
-🎥 Demo video**[click here to watch the demo video](https://drive.google.com/file/d/1BizL4DSUQEl7MrsNGp2LTPVHSLeI9lRI/view?usp=sharing)**
+🎥 Demo video - [click here to watch the demo video](https://drive.google.com/file/d/1BizL4DSUQEl7MrsNGp2LTPVHSLeI9lRI/view?usp=sharing)
 
 ## Table of Contents
 
