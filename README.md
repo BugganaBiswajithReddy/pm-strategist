@@ -22,21 +22,21 @@ Traditional AI assistants generate text. PM Strategist transforms ideas into str
   <tr>
     <td style="vertical-align:top; text-align:center">
       <a href="https://drive.google.com/file/d/1Vn_4GCDuXZjfog1eelZkTyP85Mdh2JV1/view?usp=drive_link"><img src="https://drive.google.com/uc?export=view&id=1Vn_4GCDuXZjfog1eelZkTyP85Mdh2JV1" alt="Roadmap Overview" width="420"></a>
-      <div style="margin-top:8px; font-weight:700">1 Roadmap View</div>
+      <div style="margin-top:8px; font-weight:700">Roadmap View</div>
     </td>
     <td style="vertical-align:top; text-align:center">
       <a href="https://drive.google.com/file/d/1jFHda-2MkMvw2M9T7tNFMGJmouDR12_u/view?usp=sharing"><img src="https://drive.google.com/uc?export=view&id=1jFHda-2MkMvw2M9T7tNFMGJmouDR12_u" alt="Kanban Board" width="420"></a>
-      <div style="margin-top:8px; font-weight:700">2 Kanban View</div>
+      <div style="margin-top:8px; font-weight:700">Kanban View</div>
     </td>
   </tr>
   <tr>
     <td style="vertical-align:top; text-align:center">
       <a href="https://drive.google.com/file/d/1zrFLC5J3IyZNg4eu4dnr4D_CD2QG6Fyz/view?usp=sharing"><img src="https://drive.google.com/uc?export=view&id=1zrFLC5J3IyZNg4eu4dnr4D_CD2QG6Fyz" alt="Dependency Graph" width="420"></a>
-      <div style="margin-top:8px; font-weight:700">3 Dependency graph</div>
+      <div style="margin-top:8px; font-weight:700">Dependency Graph</div>
     </td>
     <td style="vertical-align:top; text-align:center">
       <a href="https://drive.google.com/file/d/1di7AU2m2WJINs1uA_Htgy2S31nbVcbYD/view?usp=sharing"><img src="https://drive.google.com/uc?export=view&id=1di7AU2m2WJINs1uA_Htgy2S31nbVcbYD" alt="Risk Matrix" width="420"></a>
-      <div style="margin-top:8px; font-weight:700">4 Risk Matrix</div>
+      <div style="margin-top:8px; font-weight:700">Risk Matrix</div>
     </td>
   </tr>
 </table>
