@@ -202,4 +202,4 @@ Issues and pull requests are welcome. If you're adding a feature, please open an
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License]
