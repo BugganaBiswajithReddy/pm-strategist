@@ -105,7 +105,7 @@ PM Strategist is built for anyone who needs to turn a raw idea into a credible, 
 
 - [Node.js](https://nodejs.org/) v18+
 - A [Gemini API key](https://ai.google.dev/) from Google AI Studio
-- A FireBase api key is needed for logggingin and storing the data from Google AI Studio
+- A FireBase api key is needed for loggging in and storing the data from Google AI Studio
 
 ## Getting Started
 
