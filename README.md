@@ -175,10 +175,38 @@ pm-strategist/
 └── firebase-blueprint.json      # Firestore data model reference
 ```
 
-## Notes
+## Challenges & Learnings
 
-- Originally scaffolded in Google AI Studio; `GEMINI_API_KEY` can be injected at runtime via an `x-gemini-api-key` header (useful behind a proxy/hosted deployment) or read from the environment.
-- Firebase values in `firebase-applet-config.json` are client-side web config, not secrets — access is governed by `firestore.rules`. Swap in your own project's values before deploying publicly[...]
+Building PM Strategist involved more than integrating AI into a web application—it required designing an end-to-end product planning platform capable of transforming a single project idea into a structured, interactive roadmap while maintaining consistency across multiple planning views.
+
+### AI Roadmap Generation
+
+One of the biggest challenges was generating structured and reliable project roadmaps from natural language input. The application was designed to use structured prompts and predefined JSON schemas to ensure AI responses remained consistent while adapting to different project requirements.
+
+### Product Workflow Design
+
+Designing PM Strategist required translating real-world product management workflows into an intuitive application. The challenge was creating a seamless experience that guides users from idea generation to roadmap planning, task organization, dependency analysis, budgeting, risk assessment, and project execution.
+
+### Unified Data Architecture
+
+Multiple planning modules—including the Roadmap View, Kanban Board, Dependency Network, Budget Dashboard, Risk Matrix, Resource Workload, and Progress Tracking—share the same underlying roadmap data. Designing a unified data structure that keeps every view synchronized while supporting AI-driven updates was a key architectural challenge.
+
+### Interactive AI Refinement
+
+Allowing users to modify roadmaps through conversational AI required ensuring that every refinement remained consistent across tasks, timelines, budgets, risks, and dependencies without breaking the overall project structure.
+
+### Building a Scalable Application
+
+As new planning modules were introduced, maintaining reusable React components and separating business logic from presentation became essential for scalability, maintainability, and future feature expansion.
+
+### Key Learnings
+
+- Designed structured AI workflows using prompt engineering and JSON-based responses.
+- Translated product management concepts into an interactive application by designing workflows for roadmap generation, task prioritization, dependency visualization, budgeting, and risk analysis.
+- Built multiple project management visualizations from a unified roadmap data model.
+- Improved application scalability through reusable React components and modular architecture.
+- Gained practical experience designing AI-assisted planning tools that balance flexible AI output with predictable application behavior.
+- Strengthened my understanding of product planning, solution architecture, and user-centric workflow design.
 
 ## Roadmap
 
