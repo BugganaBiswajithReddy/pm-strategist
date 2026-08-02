@@ -10,11 +10,11 @@
 
 ## Overview
 
-PM Strategist is an AI-powered project planning platform. Describe what you want to build, and it acts as a solution architect + PM to generate an **MVP → V2 → Scale** roadmap — then lets yo[...] 
+PM Strategist is an AI-powered project planning platform. Describe what you want to build, and it acts as a solution architect + PM to generate an MVP → V2 → Scale roadmap — then lets you explore it across Kanban, Gantt, budget, risk, and dependency views, refine it through chat, and export it as Markdown or a polished PDF.
 
 ## Why PM Strategist?
 
-Traditional AI assistants generate text. PM Strategist transforms ideas into structured project plans that can be refined, visualized, tracked, and exported. Instead of repeatedly prompting an AI,[...]
+Traditional AI assistants generate text. PM Strategist transforms ideas into structured project plans that can be refined, visualized, tracked, and exported. Instead of repeatedly prompting an AI, users work with a persistent roadmap that evolves as project requirements change.
 
 ## Images
 
