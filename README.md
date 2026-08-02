@@ -10,18 +10,24 @@
 
 ## Overview
 
-PM Strategist is an AI-powered project planning platform. Describe what you want to build, and it acts as a solution architect + PM to generate an **MVP → V2 → Scale** roadmap — then lets you explore it across Kanban, Gantt, budget, risk, and dependency views, refine it through chat, and export it as Markdown or a polished PDF.
+PM Strategist is an AI-powered project planning platform. Describe what you want to build, and it acts as a solution architect + PM to generate an **MVP → V2 → Scale** roadmap — then lets yo[...] 
 
 ## Why PM Strategist?
 
-Traditional AI assistants generate text. PM Strategist transforms ideas into structured project plans that can be refined, visualized, tracked, and exported. Instead of repeatedly prompting an AI, users work with a persistent roadmap that evolves as project requirements change.
+Traditional AI assistants generate text. PM Strategist transforms ideas into structured project plans that can be refined, visualized, tracked, and exported. Instead of repeatedly prompting an AI,[...]
 
 ## Images
 
-- Roadmap Overview → [View](https://drive.google.com/file/d/1Vn_4GCDuXZjfog1eelZkTyP85Mdh2JV1/view?usp=drive_link)
-- Kanban Board → [View](https://drive.google.com/file/d/1jFHda-2MkMvw2M9T7tNFMGJmouDR12_u/view?usp=sharing)
-- Dependency Graph → [View](https://drive.google.com/file/d/1zrFLC5J3IyZNg4eu4dnr4D_CD2QG6Fyz/view?usp=sharing)
-- Risk Matrix → [View](https://drive.google.com/file/d/1di7AU2m2WJINs1uA_Htgy2S31nbVcbYD/view?usp=sharing)
+<table>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1Vn_4GCDuXZjfog1eelZkTyP85Mdh2JV1/view?usp=drive_link"><img src="https://drive.google.com/uc?export=view&id=1Vn_4GCDuXZjfog1eelZkTyP85Mdh2JV1" alt="Roadmap Overview" width="420"></a></td>
+    <td><a href="https://drive.google.com/file/d/1jFHda-2MkMvw2M9T7tNFMGJmouDR12_u/view?usp=sharing"><img src="https://drive.google.com/uc?export=view&id=1jFHda-2MkMvw2M9T7tNFMGJmouDR12_u" alt="Kanban Board" width="420"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1zrFLC5J3IyZNg4eu4dnr4D_CD2QG6Fyz/view?usp=sharing"><img src="https://drive.google.com/uc?export=view&id=1zrFLC5J3IyZNg4eu4dnr4D_CD2QG6Fyz" alt="Dependency Graph" width="420"></a></td>
+    <td><a href="https://drive.google.com/file/d/1di7AU2m2WJINs1uA_Htgy2S31nbVcbYD/view?usp=sharing"><img src="https://drive.google.com/uc?export=view&id=1di7AU2m2WJINs1uA_Htgy2S31nbVcbYD" alt="Risk Matrix" width="420"></a></td>
+  </tr>
+</table>
 
 🎥 **[Watch the demo video](https://drive.google.com/file/d/1BizL4DSUQEl7MrsNGp2LTPVHSLeI9lRI/view?usp=sharing)**
 
@@ -56,9 +62,9 @@ PM Strategist is built for anyone who needs to turn a raw idea into a credible, 
 
 ## Features
 
-- 🧠 **AI-generated roadmaps** — one project idea becomes a structured plan: summary, client-impact statement, proposed tech stack, time-to-MVP estimate, kickstart checklist, and 3–4 iterative phases.
+- 🧠 **AI-generated roadmaps** — one project idea becomes a structured plan: summary, client-impact statement, proposed tech stack, time-to-MVP estimate, kickstart checklist, and 3–4 iterati[...]
 - 💬 **Conversational refinement** — a chat sidebar lets you ask the AI to adjust scope, add tasks, reprioritize, or explain its reasoning; it returns a fully updated roadmap in place.
-- 🎛️ **Scenario planning** — rescale by budget/timeline multipliers ("leaner & faster" vs. "premium & thorough") and the AI re-justifies strategy, tech choices, and tasks while preserving the recalculated numbers.
+- 🎛️ **Scenario planning** — rescale by budget/timeline multipliers ("leaner & faster" vs. "premium & thorough") and the AI re-justifies strategy, tech choices, and tasks while preserving t[...]
 - 📊 **Multiple views:**
   - Kanban board for task status
   - Gantt chart for scheduling and duration
@@ -108,7 +114,7 @@ GEMINI_API_KEY="your-gemini-api-key"
 APP_URL="http://localhost:3000"
 ```
 
-**(Optional) Firebase setup** — sign-in and saved roadmaps require a Firebase project. Replace the placeholder values in `firebase-applet-config.json` with your own Firebase web app config (Project Settings → General → Your apps), then deploy `firestore.rules`. Without this, the app still works fully — AI generation, all views, and exports don't require auth.
+**(Optional) Firebase setup** — sign-in and saved roadmaps require a Firebase project. Replace the placeholder values in `firebase-applet-config.json` with your own Firebase web app config (Pro[...]
 
 ```bash
 # 4. Run it
@@ -138,7 +144,7 @@ pm-strategist/
 │   ├── main.tsx                 # React entry point
 │   ├── lib/
 │   │   ├── gemini.ts             # Gemini client, roadmap/chat schemas, AI calls
-│   │   ├── export.ts             # Markdown/PDF export logic
+│   │   │   ├── export.ts             # Markdown/PDF export logic
 │   │   ├── formatters.ts         # Currency/time/effort formatting helpers
 │   │   └── utils.ts              # Shared utilities
 │   └── components/
@@ -160,7 +166,7 @@ pm-strategist/
 ## Notes
 
 - Originally scaffolded in Google AI Studio; `GEMINI_API_KEY` can be injected at runtime via an `x-gemini-api-key` header (useful behind a proxy/hosted deployment) or read from the environment.
-- Firebase values in `firebase-applet-config.json` are client-side web config, not secrets — access is governed by `firestore.rules`. Swap in your own project's values before deploying publicly.
+- Firebase values in `firebase-applet-config.json` are client-side web config, not secrets — access is governed by `firestore.rules`. Swap in your own project's values before deploying publicly[...]
 
 ## Roadmap
 
